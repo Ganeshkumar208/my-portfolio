@@ -94,8 +94,6 @@
     .hero{
         display: flex;
     }
-
-  
     
 }
 
@@ -142,7 +140,8 @@
     width: 400px;
     height: 70vh;
     border: 5px solid rgb(119, 108, 10);
-    box-shadow: 15px 15px 15px rgb(154, 101, 101);
+    /* box-shadow: 15px 15px 15px rgb(154, 101, 101); */
+    filter: drop-shadow(1px 1px 20px rgb(22, 224, 160));
     margin-top: 150px;
     margin-left: 240px;
     border-radius: 60%;
