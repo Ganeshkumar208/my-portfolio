@@ -3,7 +3,6 @@ import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
 import ProjectsDashImg from '../Components/ProjectsDashImg'
 import PriceCard from '../Components/PriceCard'
-import WorkCard from '../Components/WorkCard'
 import Work from '../Components/Work'
 
 const Projects = () => {

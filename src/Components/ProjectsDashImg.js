@@ -1,7 +1,5 @@
 import React from 'react'
 import './ProjectsDashImgStyles.css'
-import projectsimg from '../Images/projectpic1.jpg';
-import projectsimg2 from '../Images/projectspic2.jpg'
 import projectsimg3 from '../Images/projectspic3.jpg'
 
 
