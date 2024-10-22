@@ -15,32 +15,4 @@ const ProjectsDashImg = (props) => {
     )
 }
 
-export default ProjectsDashImg
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import './ProjectsDashImgStyles.css';
-// import projectsimg from '../Images/projectpic1.jpg';
-
-// const ProjectsDashImg = () => {
-//     return (
-//         <div className='hero-img'>
-//             <img src={projectsimg} className='img' alt="Projects" />
-//             <div className='heading'>
-//                 <h1>Projects.</h1>
-//                 <p>Some of my recent projects</p>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default ProjectsDashImg;
+export default ProjectsDashImg;

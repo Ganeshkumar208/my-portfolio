@@ -1,18 +1,18 @@
-.pricing{
+.pricing {
     width: 100%;
     padding: 6rem 1rem;
     background: #000;
 }
 
-.card-container{
-    max-width:fit-content;
+.card-container {
+    max-width: fit-content;
     margin: auto;
     display: flex;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
 }
 
-.card{
+.card {
     border-radius: 20px;
     border: 4px solid #39650b;
     width: 350px;
@@ -22,97 +22,96 @@
     padding: -10px;
 }
 
-.card:hover{
+.card:hover {
     background-color: #141414;
 }
 
-.card h3{
+.card h3 {
     font-size: 1.4rem;
     color: aqua;
     margin-top: 15px;
     margin-bottom: -5px;
 }
 
-.card p{
+.card p {
     padding: 15px;
 }
 
-.bar{
+.bar {
     border-bottom: 1px solid #eee;
     width: 100%;
     margin: 1.5rem auto;
     display: block;
 }
 
-.btc{
+.btc {
     font-size: 3rem;
     color: yellow;
     font-weight: 500;
     padding: 1rem 0;
 }
 
-.card .btn{
+.card .btn {
     display: block;
     width: 80%;
     margin: 2rem auto;
 }
 
-
-.btn{
+.btn {
     padding: 15px 40px;
     font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
-    background-image: linear-gradient(to right, #4CA1AF 0%, #C4E0E5  51%, #4CA1AF  100%);
-    box-shadow: 3px 3px rgb(238, 237, 234);
+    background: linear-gradient(to right, #232323 0%, #C4E0E5 51%, #232323 100%);
+    box-shadow: 3px 3px 5px 0 rgba(236, 236, 235, 0.9);
     border-radius: 15px;
     color: #222;
     border: 2px solid #ffffff;
     font-weight: 600;
     cursor: pointer;
 }
-  
-.btn-light{
+
+.btn-light {
     background: transparent;
     color: #fff;
 }
-  
-.btn:hover{
+
+.btn:hover {
     background: rgb(0, 0, 0);
     transition: 2s;
     color: #f8fdfd;
 }
 
 
-         
+
 .btn-grad {
-    background-image: linear-gradient(to right, #4CA1AF 0%, #C4E0E5  51%, #4CA1AF  100%);
+    background-image: linear-gradient(to right, #4CA1AF 0%, #C4E0E5 51%, #4CA1AF 100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-  }
+}
 
-  .btn-grad:hover {
-    background-position: right center; 
+.btn-grad:hover {
+    background-position: right center;
     color: #fff;
     text-decoration: none;
-  }
- 
+}
+
 
 
 @media screen and (max-width:740px) {
-    .card-container{
+    .card-container {
         max-width: 90%;
         margin: auto;
         flex-direction: column;
         grid-template-columns: 1fr;
     }
-    
+
 }

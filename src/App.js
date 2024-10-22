@@ -215,13 +215,13 @@ function App() {
           },
         },
         number: {
-          value: 150,
+          value: 120,
         },
         opacity: {
           value: { min: 0.3, max: 0.7 },
         },
         shape: {
-          type: "square",
+          type: "circle",
         },
         size: {
           value: { min: 1, max: 5 },

@@ -17,7 +17,7 @@ const AboutContent = () => {
                     I thrive on solving problems, building projects that matter, and transforming ideas into reality. Let’s collaborate to bring your vision to life!
                 </p>
                 <Link to='/contact'>
-                    <button className='btns'>Contact</button>
+                    <button className='contact-btns'>Contact</button>
                 </Link>
             </div>
             <div className='right'>

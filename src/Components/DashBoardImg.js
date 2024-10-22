@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import './DashBoardImgStyles.css';
 import Softwarepic from '../Images/animie3.jpg'
+// import myPicture from '../Images/myPicture.jpg'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
