@@ -53,11 +53,6 @@ const NavBar = () => {
                         Contact
                     </Link>
                 </li>
-                <li>
-                    <Link to='/contact'>
-                        me
-                    </Link>
-                </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>
                 {click ? (
