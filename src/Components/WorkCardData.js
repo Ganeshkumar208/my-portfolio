@@ -16,7 +16,7 @@ const WorkCardData = [
         imgsrc: portfoliopic,
         title: "Portfolio",
         style: { width: '500px' },
-        text: "Welcome to my Portfolio! Hello, I’m Ganesh Kumar, a passionate full-stack developer with experience in creating dynamic, user-friendly web applications. Specialised in Tech Languages like ReactJs, TypeScript, and NestJs for Backend etc., I combine clean design with efficient coding practices to deliver robust solutions. Browse through my projects, explore my skills, and let's create something great together! With a strong performance and scalability.",
+        text: "Welcome to my Portfolio! Hello, I’m Ganesh Kumar, a passionate full-stack developer with experience in creating dynamic, user-friendly web applications. Specialised in Tech Languages like ReactJs, TypeScript, and NestJs for Backend etc., I can combine clean design with efficient coding practices to deliver robust solutions. Browse through my projects, explore my skills, and let's create something great together! With a strong performance and scalability.",
         view: "https://github.com/Ganeshkumar208"
     },
     {

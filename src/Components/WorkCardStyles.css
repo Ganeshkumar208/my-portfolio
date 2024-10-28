@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Schoolbell&display=swap');
+
 .project-heading {
     text-align: center;
     color: #FEDBD0;
@@ -52,6 +54,7 @@
 
 .paraprocard {
     /* font-style: oblique; */
+    /* font-family: 'Schoolbell', sans-serif; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
     text-align: justify;
@@ -65,7 +68,7 @@
     text-decoration: none;
     text-transform: uppercase;
     background-image: linear-gradient(to right, #153e49 0%, #3c6a7d 51%, #153e49 100%);
-    color: #0c0c0c;
+    color: #b2b229;
     border-radius: 20px;
     border: 2px solid green;
     font-weight: 600;
