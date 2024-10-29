@@ -53,12 +53,12 @@
 
 .card .btn {
     display: block;
-    width: 80%;
+    width: 65%;
     margin: 2rem auto;
 }
 
 .btn {
-    padding: 15px 40px;
+    padding: 10px 40px;
     font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
