@@ -206,7 +206,7 @@ function App() {
         },
         move: {
           enable: true,
-          speed: { min: 1, max: 5 },
+          speed: { min: 1, max: 4 },
           direction: "none",
           random: true,
           straight: false,
@@ -215,7 +215,7 @@ function App() {
           },
         },
         number: {
-          value: 120,
+          value: 90,
         },
         opacity: {
           value: { min: 0.3, max: 0.7 },
