@@ -41,7 +41,7 @@ const WorkCardData = [
         imgsrc: AnimatedWebsite,
         title: "Animated WebSite",
         text: "This animated portfolio, crafted with Three.js in a Vite setup, brings a dynamic and immersive 3D experience to a streamlined layout. This site is made with interactive graphics and smooth transitions that showcase technical skill in web animation, providing a visually engaging and professional showcase that’s both fast and responsive. This project highlights a creative approach to making portfolios memorable and impactful.",
-        view: "https://github.com/Ganeshkumar208",
+        view: "https://ganeshkumar-animated-portfolio.vercel.app/",
         source: "https://github.com/Ganeshkumar208"
     }
 ]
