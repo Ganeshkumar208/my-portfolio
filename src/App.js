@@ -7,6 +7,7 @@ import Home from "./RoutingPages/Home";
 import Projects from "./RoutingPages/Projects";
 import About from "./RoutingPages/About";
 import Contact from "./RoutingPages/Contact";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   const containerRef = useRef(null);
@@ -244,6 +245,7 @@ function App() {
       )}
 
       <div className="App">
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
