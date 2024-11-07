@@ -73,7 +73,7 @@ const Footer = () => {
                         <a href="https://wa.me/919553787707" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp size={25} style={{ color: '#80ed99', marginRight: '2rem' }} alt="whatsapp icon" />
                         </a>
-                        <a href="https://github.com/Ganeshkumar208" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Ganeshkumar208?tab=repositories" target="_blank" rel="noopener noreferrer">
                             <img
                                 src={gitHub}
                                 alt="GitHub Icon"
