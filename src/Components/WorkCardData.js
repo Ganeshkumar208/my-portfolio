@@ -16,12 +16,11 @@ const WorkCardData = [
         source: "https://github.com/Ganeshkumar208/Todo-Application"
     },
     {
-        imgsrc: portfoliopic,
-        title: "Portfolio",
-        style: { width: '500px' },
-        text: "Welcome to my Portfolio! Hello, I’m Ganesh Kumar, a passionate full-stack developer with experience in creating dynamic, user-friendly web applications. Specialised in Tech Languages like ReactJs, TypeScript, and NestJs for Backend etc., I can combine clean design with efficient coding practices to deliver robust solutions. Browse through my projects, explore my skills, and let's create something great together! With a strong performance and scalability.",
-        view: "https://ganeshkumar-portfolio.vercel.app/",
-        source: "https://github.com/Ganeshkumar208/my-portfolio"
+        imgsrc: AnimatedWebsite,
+        title: "Animated Portfolio WebSite",
+        text: "This animated portfolio, crafted with Three.js in a Vite setup, brings a dynamic and immersive 3D experience to a streamlined layout. This site is made with interactive graphics and smooth transitions that showcase technical skill in web animation, providing a visually engaging and professional showcase that’s both fast and responsive. This project highlights a creative approach to making portfolios memorable and impactful.",
+        view: "https://ganesh-animated-portfolio.vercel.app/",
+        source: "https://github.com/Ganeshkumar208"
     },
     {
         imgsrc: EmployeeFormLogin,
@@ -38,11 +37,12 @@ const WorkCardData = [
         source: "https://github.com/Ganeshkumar208/Read-Excel"
     },
     {
-        imgsrc: AnimatedWebsite,
-        title: "Animated WebSite",
-        text: "This animated portfolio, crafted with Three.js in a Vite setup, brings a dynamic and immersive 3D experience to a streamlined layout. This site is made with interactive graphics and smooth transitions that showcase technical skill in web animation, providing a visually engaging and professional showcase that’s both fast and responsive. This project highlights a creative approach to making portfolios memorable and impactful.",
-        view: "https://ganesh-animated-portfolio.vercel.app/",
-        source: "https://github.com/Ganeshkumar208"
+        imgsrc: portfoliopic,
+        title: "Portfolio",
+        style: { width: '500px' },
+        text: "Welcome to my Portfolio! Hello, I’m Ganesh Kumar, a passionate full-stack developer with experience in creating dynamic, user-friendly web applications. Specialised in Tech Languages like ReactJs, TypeScript, and NestJs for Backend etc., I can combine clean design with efficient coding practices to deliver robust solutions. Browse through my projects, explore my skills, and let's create something great together! With a strong performance and scalability.",
+        view: "https://ganeshkumar-portfolio.vercel.app/",
+        source: "https://github.com/Ganeshkumar208/my-portfolio"
     }
 ]
 

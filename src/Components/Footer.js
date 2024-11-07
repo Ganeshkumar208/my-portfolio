@@ -33,8 +33,8 @@ const Footer = () => {
                     <div className='location'>
                         <FaHome size={40} style={{ color: 'white', marginRight: '2rem' }} />
                         <div>
-                            <p className='parafoot'>Block No-14, House No-s8, Srikanth Nagar, Arilova Colony, Visakhapatnam Pin-530040</p>
-                            <p className='parafoot'>Andhra Pradesh, India</p>
+                            <p className='parafoot'>Block No-14, House No-s8, Srikanth Nagar,
+                                Arilova Colony, Visakhapatnam Pin-530040, Andhra Pradesh, India</p>
                         </div>
                     </div>
                     <div className='phone'>

@@ -2,17 +2,27 @@ import React, { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { Route, Routes } from "react-router-dom";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
+import { useLocation } from 'react-router-dom';
 
 import Home from "./RoutingPages/Home";
 import Projects from "./RoutingPages/Projects";
 import About from "./RoutingPages/About";
 import Contact from "./RoutingPages/Contact";
-import ScrollToTop from "./Components/ScrollToTop";
 import CursorTrail from "./Components/CustomCursor";
 
 function App() {
   const containerRef = useRef(null);
   const [init, setInit] = useState(false);
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, [pathname]);
+
 
   useEffect(() => {
     if (init) {
@@ -114,7 +124,6 @@ function App() {
 
       <div className="App">
         <CursorTrail />
-        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
