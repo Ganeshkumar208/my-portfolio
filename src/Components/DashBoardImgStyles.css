@@ -20,6 +20,29 @@
     left: 50%;
 } */
 
+.paradash,
+.newpara {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(30) forwards, blinkCaret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes blinkCaret {
+    80% {
+        border-color: transparent;
+    }
+}
+
 .paradash {
     margin-left: 50px;
     text-align: center;
@@ -50,7 +73,7 @@
 .buttons {
     display: flex;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 100px;
     gap: 10px;
 }
 
