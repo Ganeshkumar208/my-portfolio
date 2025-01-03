@@ -3,6 +3,7 @@ import portfoliopic from '../Images/portfoliopic1.png';
 import EmployeeFormLogin from '../Images/EmployeeFormLogin.png';
 import AnimatedWebsite from '../Images/AnimatedWebsite.png'
 import ReadExcel from '../Images/ReadExcel.png'
+import PaySlipIMg from '../Images/payslip.png'
 import './WorkCardStyles.css';
 
 
@@ -42,6 +43,14 @@ const WorkCardData = [
         text: "Welcome to my Portfolio! Hello, I’m Ganesh Kumar, a passionate full-stack developer with experience in creating dynamic, user-friendly web applications. Specialised in Tech Languages like ReactJs, TypeScript, and NestJs for Backend etc., I can combine clean design with efficient coding practices to deliver robust solutions. Browse through my projects, explore my skills, and let's create something great together! With a strong performance and scalability.",
         view: "https://ganeshkumar-portfolio.vercel.app/",
         source: "https://github.com/Ganeshkumar208/my-portfolio"
+    },
+    {
+        imgsrc: PaySlipIMg,
+        title: "PaySlipBot",
+        style: { width: '500px' },
+        text: "One of my featured projects is a Mailer Bot, an innovative tool designed to simplify bulk email communications. This application enables HR professionals to send payslips, offer letters, and other documents to employees effortlessly. It also empowers students to apply to multiple companies simultaneously, streamlining the job applications process. To enhance the users experience, I integrated With Google For Login functionality, using Google Console, Firebase Console for secure and seamless authentication.",
+        view: "https://ganeshkumar-portfolio.vercel.app/",
+        source: "https://github.com/Ganeshkumar208/EmailerBot"
     }
 ]
 

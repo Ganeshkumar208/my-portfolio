@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import './AboutContentStyles.css';
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import AboutImg1 from '../Images/aboutimg1.jpeg';

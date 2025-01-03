@@ -94,7 +94,7 @@ function App() {
           },
         },
         number: {
-          value: 70,
+          value: 40,
         },
         opacity: {
           value: { min: 0.3, max: 0.7 },
