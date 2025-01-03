@@ -50,7 +50,7 @@ const WorkCardData = [
         style: { width: '500px' },
         text: "One of my featured projects is a Mailer Bot, an innovative tool designed to simplify bulk email communications. This application enables HR professionals to send payslips, offer letters, and other documents to employees effortlessly. It also empowers students to apply to multiple companies simultaneously, streamlining the job applications process. To enhance the users experience, I integrated With Google For Login functionality, using Google Console, Firebase Console for secure and seamless authentication.",
         view: "https://ganeshkumar-portfolio.vercel.app/",
-        source: "https://github.com/Ganeshkumar208/EmailerBot"
+        source: "https://github.com/Ganeshkumar208/MailerBot"
     }
 ]
 
