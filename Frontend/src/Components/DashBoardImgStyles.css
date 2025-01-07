@@ -24,7 +24,7 @@
 .newpara {
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 4s steps(30) forwards, blinkCaret 0.75s step-end infinite;
+    animation: typing 4s steps(360) forwards, blinkCaret 0.75s step-end infinite;
 }
 
 @keyframes typing {
