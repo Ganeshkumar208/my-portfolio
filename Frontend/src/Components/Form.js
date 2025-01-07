@@ -1,6 +1,8 @@
 import './FormStyles.css';
 import React, { useState } from 'react';
-import { Modal, Button } from 'antd';
+// import { Modal, Button } from 'antd';
+import axios from 'axios';
+import { Modal, Button, message as AntdMessage } from 'antd';
 
 const Form = () => {
     const [formData, setFormData] = useState({
@@ -11,6 +13,7 @@ const Form = () => {
     });
 
     const [isModalVisible, setIsModalVisible] = useState(false);
+    const [, setLoading] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -20,10 +23,31 @@ const Form = () => {
         });
     };
 
-    const handleSubmit = (e) => {
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     setIsModalVisible(true);
+    // };
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        setIsModalVisible(true);
+        setLoading(true);
+        try {
+            const apiUrl = 'https://backendwhatsapp-production-95b0.up.railway.app/whatsapp/send-whatsapp';
+            const response = await axios.post(apiUrl, formData);
+            if (response.data.success) {
+                AntdMessage.success('Message sent successfully!');
+                setIsModalVisible(true);
+            } else {
+                throw new Error(response.data.error || 'Failed to send the message.');
+            }
+        } catch (error) {
+            console.error('Error sending message:', error);
+            AntdMessage.error('Failed to send the message. Please try again.');
+        } finally {
+            setLoading(false);
+        }
     };
+
 
     const handleOk = () => {
         setIsModalVisible(false);
