@@ -34,8 +34,8 @@ export class WhatsappService {
       `;
 
         return this.client.messages.create({
-            from: 'whatsapp:+14155238886', // Twilio WhatsApp Sandbox Number
-            to: `whatsapp:${this.configService.get<string>('WHATSAPP_RECEIVER')}`, // Receiver WhatsApp number
+            from: 'whatsapp:+14155238886',
+            to: `whatsapp:${this.configService.get<string>('WHATSAPP_RECEIVER')}`,
             body: formattedMessage,
         });
     }
@@ -51,8 +51,8 @@ export class WhatsappService {
       `;
 
         return this.client.messages.create({
-            from: this.configService.get<string>('TWILIO_PHONE_NUMBER'), // Twilio number
-            to: this.configService.get<string>('SMS_RECEIVER'), // Receiver phone number
+            from: this.configService.get<string>('TWILIO_PHONE_NUMBER'),
+            to: this.configService.get<string>('SMS_RECEIVER'),
             body: formattedMessage,
         });
     }
