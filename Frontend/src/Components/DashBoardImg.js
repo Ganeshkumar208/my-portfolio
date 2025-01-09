@@ -1,5 +1,5 @@
 import './DashBoardImgStyles.css';
-import Softwarepic from '../Images/animie3.jpg'
+import Softwarepic from '../Images/softwarepic.jpg'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
