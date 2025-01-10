@@ -23,11 +23,6 @@ const Form = () => {
         });
     };
 
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     setIsModalVisible(true);
-    // };
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
@@ -47,7 +42,6 @@ const Form = () => {
             setLoading(false);
         }
     };
-
 
     const handleOk = () => {
         setIsModalVisible(false);

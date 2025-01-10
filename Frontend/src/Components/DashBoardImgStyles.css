@@ -46,14 +46,14 @@
 .paradash {
     margin-left: 50px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aquamarine;
 }
 
 .newpara {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkcyan;
     text-align: center;
     margin-left: 45px;
@@ -160,9 +160,9 @@
 .intro-img {
     width: 400px;
     height: 70vh;
-    border: 5px solid rgb(119, 108, 10);
-    /* box-shadow: 15px 15px 15px rgb(154, 101, 101); */
-    filter: drop-shadow(1px 1px 20px rgb(22, 224, 160));
+    border: 3px solid rgb(119, 108, 10);
+    box-shadow: 1px 1px 15px rgb(22, 224, 160);
+    /* filter: drop-shadow(1px 1px 20px rgb(22, 224, 160)); */
     margin-top: 150px;
     margin-left: 240px;
     border-radius: 60%;
