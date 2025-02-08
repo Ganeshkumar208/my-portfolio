@@ -84,14 +84,12 @@ const Footer = () => {
                 </div>
             </div>
 
-            {showButton && (
-                <button
-                    onClick={scrollToTop}
-                    className="back-to-top-button"
-                >
-                    ↑
-                </button>
-            )}
+            <button
+                onClick={scrollToTop}
+                className={`back-to-top-button ${showButton ? 'show' : ''}`}
+            >
+                ↑
+            </button>
         </div>
     );
 };
